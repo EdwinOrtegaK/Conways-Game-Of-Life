@@ -86,26 +86,90 @@ fn main() {
     // Patrón inicial para Unown G
     let unown_g = vec![2, 3, 4, 6, 10, 12, 16, 17, 18, 22, 27, 28, 29];
 
-    // Inicializar letra A cerca del centro
-    initialize_pattern(&mut grid, &unown_a, GRID_WIDTH / 2 - 15, GRID_HEIGHT / 2 - 3);
+    // Patrón inicial para Unown H
+    let unown_h = vec![2, 3, 6, 8, 11, 13, 15, 18, 21, 23, 26, 28, 31, 32];
 
-    // Inicializar letra B cerca del centro
-    initialize_pattern(&mut grid, &unown_b, GRID_WIDTH / 2 - 7, GRID_HEIGHT / 2 - 3);
+    // Patrón inicial para Unown I
+    let unown_i = vec![2, 3, 4, 5, 7, 13, 19, 25, 27, 28, 29];
 
-    // Inicializar letra C cerca del centro
-    initialize_pattern(&mut grid, &unown_c, GRID_WIDTH / 2 + 1, GRID_HEIGHT / 2 - 3);
+    // Patrón inicial para Unown J
+    let unown_j = vec![3, 4, 5, 7, 13, 19, 25, 30, 33, 35];
 
-    // Inicializar letra D cerca del centro
-    initialize_pattern(&mut grid, &unown_d, GRID_WIDTH / 2 + 9, GRID_HEIGHT / 2 - 3);
+    // Patrón inicial para Unown K
+    let unown_k = vec![2, 6, 7, 10, 12, 13, 17, 20, 22, 26, 27, 28];
 
-    // Inicializar letra E cerca del centro
-    initialize_pattern(&mut grid, &unown_e, GRID_WIDTH / 2 + 17, GRID_HEIGHT / 2 - 3);
+    // Patrón inicial para Unown L
+    let unown_l = vec![2, 6, 7, 11, 12, 16, 20, 22, 23, 24, 25, 26];
 
-    // Inicializar letra F en la parte inferior izquierda
-    initialize_pattern(&mut grid, &unown_f, GRID_WIDTH / 2 - 15, GRID_HEIGHT / 2 + 10);
+    // Patrón inicial para Unown M
+    let unown_m = vec![2, 6, 8, 12, 14, 18, 22, 26, 28, 32, 33];
+    
+    // Patrón inicial para Unown N
+    let unown_n = vec![2, 3, 4, 5, 6, 8, 12, 16, 20, 22, 26, 30];
 
-    // Inicializar letra G en la parte inferior derecha
-    initialize_pattern(&mut grid, &unown_g, GRID_WIDTH / 2 - 7, GRID_HEIGHT / 2 + 10);
+    // Patrón inicial para Unown O
+    let unown_o = vec![2, 3, 4, 7, 9, 12, 14, 17, 19, 22, 24, 27, 28, 29];
+
+    // Patrón inicial para Unown P
+    let unown_p = vec![2, 3, 4, 7, 9, 12, 13, 16, 20, 21, 25];
+
+    // Patrón inicial para Unown Q
+    let unown_q = vec![2, 3, 4, 7, 9, 12, 14, 17, 19, 22, 24, 27, 28, 29, 34];
+
+    // Patrón inicial para Unown R
+    let unown_r = vec![2, 3, 4, 7, 9, 12, 13, 14, 17, 19, 22, 23, 26];
+
+    // Patrón inicial para Unown S
+    let unown_s = vec![2, 3, 4, 6, 12, 13, 14, 19, 25, 27, 28, 29];
+
+    // Patrón inicial para Unown T
+    let unown_t = vec![2, 3, 4, 5, 7, 13, 19, 25, 27];
+
+    // Patrón inicial para Unown U
+    let unown_u = vec![2, 6, 10, 12, 16, 20, 22, 26, 27, 28];
+
+    // Patrón inicial para Unown V
+    let unown_v = vec![2, 6, 10, 12, 16, 20, 23, 24, 25];
+
+    // Patrón inicial para Unown W
+    let unown_w = vec![2, 6, 10, 12, 16, 18, 20, 21, 22, 23, 24, 25];
+
+    // Patrón inicial para Unown X
+    let unown_x = vec![2, 6, 10, 13, 15, 16, 20, 22, 26, 27, 31];
+    
+    // Patrón inicial para Unown Y
+    let unown_y = vec![2, 6, 8, 12, 16, 20, 22, 26, 27, 31];
+
+    // Patrón inicial para Unown Z
+    let unown_z = vec![2, 6, 8, 11, 13, 16, 18, 21, 23, 27, 29, 34];
+
+    // Inicializar letras en el centro
+    initialize_pattern(&mut grid, &unown_a, GRID_WIDTH / 2 - 12, GRID_HEIGHT / 2 - 7);
+    initialize_pattern(&mut grid, &unown_b, GRID_WIDTH / 2 - 5, GRID_HEIGHT / 2 - 7);
+    initialize_pattern(&mut grid, &unown_c, GRID_WIDTH / 2 + 2, GRID_HEIGHT / 2 - 7);
+    initialize_pattern(&mut grid, &unown_d, GRID_WIDTH / 2 + 9, GRID_HEIGHT / 2 - 7);
+    initialize_pattern(&mut grid, &unown_e, GRID_WIDTH / 2 + 16, GRID_HEIGHT / 2 - 7);
+    initialize_pattern(&mut grid, &unown_f, GRID_WIDTH / 2 - 12, GRID_HEIGHT / 2);
+    initialize_pattern(&mut grid, &unown_g, GRID_WIDTH / 2 - 5, GRID_HEIGHT / 2);
+    initialize_pattern(&mut grid, &unown_h, GRID_WIDTH / 2 + 2, GRID_HEIGHT / 2);
+    initialize_pattern(&mut grid, &unown_i, GRID_WIDTH / 2 + 9, GRID_HEIGHT / 2);
+    initialize_pattern(&mut grid, &unown_j, GRID_WIDTH / 2 + 16, GRID_HEIGHT / 2);
+    initialize_pattern(&mut grid, &unown_k, GRID_WIDTH / 2 - 12, GRID_HEIGHT / 2 + 7);
+    initialize_pattern(&mut grid, &unown_l, GRID_WIDTH / 2 - 5, GRID_HEIGHT / 2 + 7);
+    initialize_pattern(&mut grid, &unown_m, GRID_WIDTH / 2 + 2, GRID_HEIGHT / 2 + 7);
+    initialize_pattern(&mut grid, &unown_n, GRID_WIDTH / 2 + 9, GRID_HEIGHT / 2 + 7);
+    initialize_pattern(&mut grid, &unown_o, GRID_WIDTH / 2 + 16, GRID_HEIGHT / 2 + 7);
+    initialize_pattern(&mut grid, &unown_p, GRID_WIDTH / 2 - 12, GRID_HEIGHT / 2 + 14);
+    initialize_pattern(&mut grid, &unown_q, GRID_WIDTH / 2 - 5, GRID_HEIGHT / 2 + 14);
+    initialize_pattern(&mut grid, &unown_r, GRID_WIDTH / 2 + 2, GRID_HEIGHT / 2 + 14);
+    initialize_pattern(&mut grid, &unown_s, GRID_WIDTH / 2 + 9, GRID_HEIGHT / 2 + 14);
+    initialize_pattern(&mut grid, &unown_t, GRID_WIDTH / 2 + 16, GRID_HEIGHT / 2 + 14);
+    initialize_pattern(&mut grid, &unown_u, GRID_WIDTH / 2 - 12, GRID_HEIGHT / 2 + 21);
+    initialize_pattern(&mut grid, &unown_v, GRID_WIDTH / 2 - 5, GRID_HEIGHT / 2 + 21);
+    initialize_pattern(&mut grid, &unown_w, GRID_WIDTH / 2 + 2, GRID_HEIGHT / 2 + 21);
+    initialize_pattern(&mut grid, &unown_x, GRID_WIDTH / 2 + 9, GRID_HEIGHT / 2 + 21);
+    initialize_pattern(&mut grid, &unown_y, GRID_WIDTH / 2 + 16, GRID_HEIGHT / 2 + 21);
+    initialize_pattern(&mut grid, &unown_z, GRID_WIDTH / 2 - 12, GRID_HEIGHT / 2 + 28);
 
     let mut framebuffer = Framebuffer::new(WIDTH, HEIGHT);
     let mut window = Window::new(
